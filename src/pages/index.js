@@ -10,11 +10,13 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   var style={'flex-wrap': 'wrap'};
   var buttonstyle={margin:'20px 36px'};
+  var bgimg={'background': 'url(../../static/img/kancolle_766.jpg) no-repeat','background-size': 'cover','background-repeat': 'no-repeat','background-position': 'center 0'};
+  var GhostWhite={'color':'GhostWhite','text-shadow': '#D3D3D3 2px 0 0, #D3D3D3 0 2px 0, #D3D3D3 -2px 0 0, #D3D3D3 0 -2px 0'}
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero hero--primary', styles.heroBanner)} style={bgimg}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="hero__title" style={GhostWhite}>{siteConfig.title}</h1>
+        <p className="hero__subtitle" style={GhostWhite}>{siteConfig.tagline}</p>
         <div className={styles.buttons} style={style}>
           <Link className="button button--secondary button--lg" style={buttonstyle} to="/docs/index">
             浏览开发文档📑

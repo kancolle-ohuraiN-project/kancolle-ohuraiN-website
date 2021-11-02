@@ -9,12 +9,12 @@ const config = {
   title: 'kancolle-offline',
   tagline: '舰队收藏离线项目官网',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/offline-colle-website/',
+  baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'kancolle-offline', // Usually your GitHub org/user name.
-  projectName: 'kancolle-offline', // Usually your repo name.
+  organizationName: 'offline-colle', // Usually your GitHub org/user name.
+  projectName: 'offline-colle-website', // Usually your repo name.
 
   presets: [
     [
@@ -108,3 +108,4 @@ const config = {
 };
 
 module.exports = config;
+
