@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kancolle-offline Blog</title>
-        <link>https://your-docusaurus-test-site.com/offline-colle-website/blog</link>
+        <link>https://your-docusaurus-test-site.com/blog</link>
         <description>kancolle-offline Blog</description>
         <lastBuildDate>Tue, 02 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[欢迎！]]></title>
-            <link>https://your-docusaurus-test-site.com/offline-colle-website/blog/welcome</link>
+            <link>https://your-docusaurus-test-site.com/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Tue, 02 Nov 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[欢迎浏览offline-colle项目的开发博客qwq]]></description>
