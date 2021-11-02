@@ -9,7 +9,7 @@ const config = {
   title: 'kancolle-offline',
   tagline: '舰队收藏离线项目官网',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/offline-colle-website/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
