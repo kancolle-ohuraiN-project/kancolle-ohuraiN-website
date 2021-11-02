@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: '这是什么项目？',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Img: require('../../static/img/3.png').default,
     description: (
       <>
         此项目是为了防止舰队收藏有一天被关服所创建了离线版舰队收藏
@@ -15,8 +15,21 @@ const FeatureList = [
     ),
   },
   {
+    title: '我想参加此项目的制作',
+    Img: require('../../static/img/2.png').default,
+    description: (
+      <>
+      我们非常欢迎大家能参加此项目的制作，因为我们并不是专业人员，而是从各个专业用爱来发电的业余人员
+      <br></br><br></br>
+      如果您希望参加此项目的制作，可以联系<code>@misaka10843</code>
+      <br></br><br></br>
+      或者直接PR您的代码，我们会测试通过后合并请求
+      </>
+    ),
+  },
+  {
     title: '这能联网吗？',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Img: require('../../static/img/1.png').default,
     description: (
       <>
       现在是不会开发联网功能的，所以所有机制类似于PSV版（也就是网页版脱机运行）
@@ -29,26 +42,13 @@ const FeatureList = [
       </>
     ),
   },
-  {
-    title: '我想参加此项目的制作',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-      我们非常欢迎大家能参加此项目的制作，因为我们并不是专业人员，而是从各个专业用爱来发电的业余人员
-      <br></br><br></br>
-      如果您希望参加此项目的制作，可以联系<code>@misaka10843</code>
-      <br></br><br></br>
-      或者直接PR您的代码，我们会测试通过后合并请求
-      </>
-    ),
-  },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Img, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        <img className={styles.featureImg} alt={title} src={Img}/>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

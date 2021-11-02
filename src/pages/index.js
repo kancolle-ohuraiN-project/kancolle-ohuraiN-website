@@ -8,8 +8,8 @@ import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  var style={'flex-wrap': 'wrap'}
-  var buttonstyle={margin:'20px 36px'}
+  var style={'flex-wrap': 'wrap'};
+  var buttonstyle={margin:'20px 36px'};
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
