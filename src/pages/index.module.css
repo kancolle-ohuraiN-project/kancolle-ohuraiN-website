@@ -15,17 +15,17 @@
     padding: 2rem;
   }
 }
-.githubbutton{
-  display:flex;
-}
 
-@media screen and (min-width: 1201px) {
-.githubbutton{
-  display: none;
-}
-}
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px 36px;
+}
+.buttons-index-module{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 36px;
+  flex-wrap: wrap;
 }
