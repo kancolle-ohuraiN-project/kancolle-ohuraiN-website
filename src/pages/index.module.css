@@ -15,7 +15,15 @@
     padding: 2rem;
   }
 }
+.githubbutton{
+  display:flex;
+}
 
+@media screen and (min-width: 1201px) {
+.githubbutton{
+  display: none;
+}
+}
 .buttons {
   display: flex;
   align-items: center;

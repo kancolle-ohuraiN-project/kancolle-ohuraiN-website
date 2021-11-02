@@ -4,32 +4,41 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '这是什么项目？',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        此项目是为了防止舰队收藏有一天被关服所创建了离线版舰队收藏
+        <br></br><br></br>
+        (使用<strong>unity</strong>开发，基于舰队收藏<strong>网页版</strong>)
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '这能联网吗？',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      现在是不会开发联网功能的，所以所有机制类似于PSV版（也就是网页版脱机运行）
+      <br></br><br></br>
+      虽然可能会着手开发类似steam创意工坊以供玩家增加自定义活动等
+      <br></br><br></br>
+      如果真的有一天停服，我们可能会开发提督的演习功能（现在暂且没有）
+      <br></br><br></br>
+      （而且因为服务器开销可能需要捐助才能维持）
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '我想参加此项目的制作',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      我们非常欢迎大家能参加此项目的制作，因为我们并不是专业人员，而是从各个专业用爱来发电的业余人员
+      <br></br><br></br>
+      如果您希望参加此项目的制作，可以联系<code>@misaka10843</code>
+      <br></br><br></br>
+      或者直接PR您的代码，我们会测试通过后合并请求
       </>
     ),
   },

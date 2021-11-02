@@ -15,9 +15,19 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            className="button button--secondary button--lg "
+            to="/docs/index">
+            浏览开发文档📑
+          </Link>
+          <Link
+            className="githubbutton button button--secondary button--lg"
+            to="https://github.com/offline-colle/">
+            查看GitHub项目🖥️
+          </Link>
+          <Link
+            className="button button--secondary button--lg" 
+            to="https://discord.gg/YKqytuN7PQ">
+            加入discord频道💬
           </Link>
         </div>
       </div>
