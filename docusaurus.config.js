@@ -10,7 +10,7 @@ const config = {
   tagline: '舰队收藏离线项目官网',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'kancolle-offline', // Usually your GitHub org/user name.

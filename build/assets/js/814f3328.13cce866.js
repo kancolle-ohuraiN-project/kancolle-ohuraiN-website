@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkancolle=self.webpackChunkkancolle||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u6b22\u8fce\uff01","permalink":"/blog/welcome"}]}')}}]);

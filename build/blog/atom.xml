@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-test-site.com/blog</id>
+    <title>kancolle-offline Blog</title>
+    <updated>2021-11-02T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
+    <subtitle>kancolle-offline Blog</subtitle>
+    <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[欢迎！]]></title>
+        <id>welcome</id>
+        <link href="https://your-docusaurus-test-site.com/blog/welcome"/>
+        <updated>2021-11-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[欢迎浏览offline-colle项目的开发博客qwq]]></summary>
+        <content type="html"><![CDATA[<p>欢迎浏览<a href="https://github.com/offline-colle/">offline-colle</a>项目的开发博客qwq</p><p>您可以在此观看我们的开发日志qwq</p><p>如果您想参加我们项目的制作，您可以查看我们的<a href="docs/">文档</a></p><p>感谢您的支持与参与！</p>]]></content>
+        <author>
+            <name>misaka10843</name>
+            <uri>https://github.com/misaka10843</uri>
+        </author>
+    </entry>
+</feed>
