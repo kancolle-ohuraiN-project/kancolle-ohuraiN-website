@@ -4,9 +4,17 @@
         <title>kancolle-offline Blog</title>
         <link>https://your-docusaurus-test-site.com/blog</link>
         <description>kancolle-offline Blog</description>
-        <lastBuildDate>Tue, 02 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[2021年11月11日开发进度汇报]]></title>
+            <link>https://your-docusaurus-test-site.com/blog/2021-11-11-1</link>
+            <guid>2021-11-11-1</guid>
+            <pubDate>Thu, 11 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[此为2021年11月11日开发进度汇报]]></description>
+            <content:encoded><![CDATA[<p><strong>此为2021年11月11日开发进度汇报</strong></p><ol><li>我们已经<a href="https://github.com/offline-colle/kancolle-offline/commit/1417ef850717f267b8eebb8b4f2ed52f5a83b3bd">完善了母港页面的布局及动画</a></li><li>母港界面添加了<a href="https://github.com/offline-colle/kancolle-offline/commit/6b33a3cdc928676b49c5baf906c0fa740702d434">增加设置界面以及动画</a>与<a href="https://github.com/offline-colle/kancolle-offline/commit/be5a02b898df7798c93bc6785d64a3c848c9c9d8">通知动画完成(<!-- -->&#x27;<!-- -->表示<!-- -->&#x27;<!-- -->动画)</a></li><li><a href="https://github.com/offline-colle/kancolle-offline/commit/e48d66ab1fb8461bf2939b9fae6690a3a18d4ebb">秘书舰语音实装</a>（虽然并没有进行分类）</li><li><a href="https://github.com/offline-colle/kancolle-offline/commit/7a05196c411cef81bd716f63a249a4e25b3a4e91">关闭unity广告及内购功能，将unity仓库迁移到项目团队中</a></li></ol><p><strong>紧急事故</strong></p><p>因为主要开发人员<a href="https://github.com/misaka10843">misaka10843</a>突发 <code>急性肠胃炎</code>，所以导致项目停止维护一段时间(预计3周后康复)</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[欢迎！]]></title>
             <link>https://your-docusaurus-test-site.com/blog/welcome</link>
