@@ -11,7 +11,6 @@ tags: [开发进度汇报]
 3. [秘书舰语音实装](https://github.com/offline-colle/kancolle-offline/commit/e48d66ab1fb8461bf2939b9fae6690a3a18d4ebb)（虽然并没有进行分类）
 4. [关闭unity广告及内购功能，将unity仓库迁移到项目团队中](https://github.com/offline-colle/kancolle-offline/commit/7a05196c411cef81bd716f63a249a4e25b3a4e91)
 
-
-**紧急事故**
+**开发停止维护**
 
 因为主要开发人员[misaka10843](https://github.com/misaka10843)突发 `急性肠胃炎`，所以导致项目停止维护一段时间(预计3周后康复)

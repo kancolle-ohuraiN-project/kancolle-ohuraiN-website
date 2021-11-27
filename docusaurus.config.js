@@ -73,6 +73,10 @@ const config = {
                 label: '文档主页',
                 to: '/docs/index',
               },
+              {
+                label: '游戏端文档',
+                to: '/docs/kancolle-offline',
+              }
             ],
           },
           {
@@ -98,7 +102,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} offline-colle, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/offline-colle" target="_blank">offline-colle, Inc.</a> Built with Docusaurus.<br>Website hosting is provided by <a href="https://pages.cloudflare.com/" target="_blank">cloudflare pages</a>. Thank you very much for providing cloudflare!<br>Among them, some pictures on the website are painted by <a href="https://www.pixiv.net/users/22300147" target="_blank">よしなお</a> on pixiv. Thank you very much よしなお!`,
       },
       prism: {
         theme: lightCodeTheme,
