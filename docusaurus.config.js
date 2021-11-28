@@ -8,14 +8,23 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'kancolle-offline',
   tagline: '舰队收藏离线项目官网',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://colle.sakurakoyi.top',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'offline-colle', // Usually your GitHub org/user name.
   projectName: 'offline-colle-website', // Usually your repo name.
-
+  plugins: [
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        trailingSlash: false,
+      },
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
