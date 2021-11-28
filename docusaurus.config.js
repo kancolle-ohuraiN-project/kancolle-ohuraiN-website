@@ -132,6 +132,19 @@ const config = {
               },
             ],
           },
+          {
+            title: '姊妹网站',
+            items: [
+              {
+                label: '喵帕斯动画',
+                to: 'http://anime.sakurakoyi.top:10843',
+              },
+              {
+                label: '明日方舟主页',
+                href: 'https://misaka10843.github.io/arknights-h5/',
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/offline-colle" target="_blank">offline-colle, Inc.</a> Built with Docusaurus.<br>Website hosting is provided by <a href="https://pages.cloudflare.com/" target="_blank">cloudflare pages</a>. Thank you very much for providing cloudflare!<br>Among them, some pictures on the website are painted by <a href="https://www.pixiv.net/users/22300147" target="_blank">よしなお</a> on pixiv. Thank you very much よしなお!`,
       },
