@@ -10,7 +10,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   var style={'flex-wrap': 'wrap'};
   var buttonstyle={margin:'20px 36px'};
-  var bgimg={'background': 'url(https://i.loli.net/2021/11/03/FXNLbawkOZmGWrD.jpg) no-repeat','background-size': 'cover','background-repeat': 'no-repeat','background-position': 'center 0'};
+  var bgimg={'background': 'url(/img/FXNLbawkOZmGWrD.jpg) no-repeat','background-size': 'cover','background-repeat': 'no-repeat','background-position': 'center 0'};
   var GhostWhite={'color':'GhostWhite','text-shadow': '#D3D3D3 2px 0 0, #D3D3D3 0 2px 0, #D3D3D3 -2px 0 0, #D3D3D3 0 -2px 0'}
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)} style={bgimg}>

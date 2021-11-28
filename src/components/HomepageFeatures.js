@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: '这是什么项目？',
-    Img: 'https://i.loli.net/2021/11/03/dIKhW2YsZcnma3H.png',
+    Img: '/img/dIKhW2YsZcnma3H.png',
     description: (
       <>
         此项目是为了防止舰队收藏有一天被关服所创建了离线版舰队收藏
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: '我想参加此项目的制作',
-    Img: 'https://i.loli.net/2021/11/03/arxsLwFBhNVc9mK.png',
+    Img: '/img/arxsLwFBhNVc9mK.png',
     description: (
       <>
       我们非常欢迎大家能参加此项目的制作，因为我们并不是专业人员，而是从各个专业用爱来发电的业余人员
@@ -29,7 +29,7 @@ const FeatureList = [
   },
   {
     title: '这能联网吗？',
-    Img: 'https://i.loli.net/2021/11/03/wKRQBEVnZN8F7S5.png',
+    Img: '/img/wKRQBEVnZN8F7S5.png',
     description: (
       <>
       现在是不会开发联网功能的，所以所有机制类似于PSV版（也就是网页版脱机运行）
