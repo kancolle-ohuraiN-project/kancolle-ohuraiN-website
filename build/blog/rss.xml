@@ -2,14 +2,30 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>kancolle-offline Blog</title>
-        <link>https://your-docusaurus-test-site.com/blog</link>
+        <link>https://colle.sakurakoyi.top/blog</link>
         <description>kancolle-offline Blog</description>
-        <lastBuildDate>Thu, 11 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
+            <title><![CDATA[2021年11月28日开发进度汇报]]></title>
+            <link>https://colle.sakurakoyi.top/blog/2021-11-28-1</link>
+            <guid>2021-11-28-1</guid>
+            <pubDate>Sun, 28 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[此为2021年11月28日开发进度汇报]]></description>
+            <content:encoded><![CDATA[<p><strong>此为2021年11月28日开发进度汇报</strong></p><ol><li>因为战绩界面素材属实找不到，所以暂且抛弃战绩界面</li><li>主界面&lt;-&gt;战绩界面可互相切换</li></ol>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[2021年11月27日开发进度汇报]]></title>
+            <link>https://colle.sakurakoyi.top/blog/2021-11-27-1</link>
+            <guid>2021-11-27-1</guid>
+            <pubDate>Sat, 27 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[此为2021年11月27日开发进度汇报]]></description>
+            <content:encoded><![CDATA[<p><strong>此为2021年11月27日开发进度汇报</strong></p><ol><li>因为主要开发人员的身体问题，所以更新变慢</li><li>因为unity中的设置原因导致无法上传到unity仓库，此问题还在排查中</li><li>开始开发战绩界面</li><li>准备将秘书舰的语音分类</li></ol>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[2021年11月11日开发进度汇报]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/2021-11-11-1</link>
+            <link>https://colle.sakurakoyi.top/blog/2021-11-11-1</link>
             <guid>2021-11-11-1</guid>
             <pubDate>Thu, 11 Nov 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[此为2021年11月11日开发进度汇报]]></description>
@@ -17,7 +33,7 @@
         </item>
         <item>
             <title><![CDATA[欢迎！]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/welcome</link>
+            <link>https://colle.sakurakoyi.top/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Tue, 02 Nov 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[欢迎浏览offline-colle项目的开发博客qwq]]></description>

@@ -66,6 +66,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {},
       }),
     ],
   ],
@@ -137,7 +138,7 @@ const config = {
             items: [
               {
                 label: '喵帕斯动画',
-                to: 'http://anime.sakurakoyi.top:10843',
+                href: 'http://anime.sakurakoyi.top:10843',
               },
               {
                 label: '明日方舟主页',

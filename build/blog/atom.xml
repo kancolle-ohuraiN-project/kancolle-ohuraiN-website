@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-test-site.com/blog</id>
+    <id>https://colle.sakurakoyi.top/blog</id>
     <title>kancolle-offline Blog</title>
-    <updated>2021-11-11T00:00:00.000Z</updated>
+    <updated>2021-11-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
+    <link rel="alternate" href="https://colle.sakurakoyi.top/blog"/>
     <subtitle>kancolle-offline Blog</subtitle>
-    <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
+    <icon>https://colle.sakurakoyi.top/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2021年11月28日开发进度汇报]]></title>
+        <id>2021-11-28-1</id>
+        <link href="https://colle.sakurakoyi.top/blog/2021-11-28-1"/>
+        <updated>2021-11-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[此为2021年11月28日开发进度汇报]]></summary>
+        <content type="html"><![CDATA[<p><strong>此为2021年11月28日开发进度汇报</strong></p><ol><li>因为战绩界面素材属实找不到，所以暂且抛弃战绩界面</li><li>主界面&lt;-&gt;战绩界面可互相切换</li></ol>]]></content>
+        <author>
+            <name>misaka10843</name>
+            <uri>https://github.com/misaka10843</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021年11月27日开发进度汇报]]></title>
+        <id>2021-11-27-1</id>
+        <link href="https://colle.sakurakoyi.top/blog/2021-11-27-1"/>
+        <updated>2021-11-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[此为2021年11月27日开发进度汇报]]></summary>
+        <content type="html"><![CDATA[<p><strong>此为2021年11月27日开发进度汇报</strong></p><ol><li>因为主要开发人员的身体问题，所以更新变慢</li><li>因为unity中的设置原因导致无法上传到unity仓库，此问题还在排查中</li><li>开始开发战绩界面</li><li>准备将秘书舰的语音分类</li></ol>]]></content>
+        <author>
+            <name>misaka10843</name>
+            <uri>https://github.com/misaka10843</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2021年11月11日开发进度汇报]]></title>
         <id>2021-11-11-1</id>
-        <link href="https://your-docusaurus-test-site.com/blog/2021-11-11-1"/>
+        <link href="https://colle.sakurakoyi.top/blog/2021-11-11-1"/>
         <updated>2021-11-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[此为2021年11月11日开发进度汇报]]></summary>
         <content type="html"><![CDATA[<p><strong>此为2021年11月11日开发进度汇报</strong></p><ol><li>我们已经<a href="https://github.com/offline-colle/kancolle-offline/commit/1417ef850717f267b8eebb8b4f2ed52f5a83b3bd">完善了母港页面的布局及动画</a></li><li>母港界面添加了<a href="https://github.com/offline-colle/kancolle-offline/commit/6b33a3cdc928676b49c5baf906c0fa740702d434">增加设置界面以及动画</a>与<a href="https://github.com/offline-colle/kancolle-offline/commit/be5a02b898df7798c93bc6785d64a3c848c9c9d8">通知动画完成(<!-- -->&#x27;<!-- -->表示<!-- -->&#x27;<!-- -->动画)</a></li><li><a href="https://github.com/offline-colle/kancolle-offline/commit/e48d66ab1fb8461bf2939b9fae6690a3a18d4ebb">秘书舰语音实装</a>（虽然并没有进行分类）</li><li><a href="https://github.com/offline-colle/kancolle-offline/commit/7a05196c411cef81bd716f63a249a4e25b3a4e91">关闭unity广告及内购功能，将unity仓库迁移到项目团队中</a></li></ol><p><strong>开发停止维护</strong></p><p>因为主要开发人员<a href="https://github.com/misaka10843">misaka10843</a>突发 <code>急性肠胃炎</code>，所以导致项目停止维护一段时间(预计3周后康复)</p>]]></content>
@@ -22,7 +46,7 @@
     <entry>
         <title type="html"><![CDATA[欢迎！]]></title>
         <id>welcome</id>
-        <link href="https://your-docusaurus-test-site.com/blog/welcome"/>
+        <link href="https://colle.sakurakoyi.top/blog/welcome"/>
         <updated>2021-11-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[欢迎浏览offline-colle项目的开发博客qwq]]></summary>
         <content type="html"><![CDATA[<p>欢迎浏览<a href="https://github.com/offline-colle/">offline-colle</a>项目的开发博客qwq</p><p>您可以在此观看我们的开发日志qwq</p><p>如果您想参加我们项目的制作，您可以查看我们的<a href="docs/">文档</a></p><p>感谢您的支持与参与！</p>]]></content>
