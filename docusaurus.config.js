@@ -131,6 +131,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/offline-colle',
               },
+              {
+                label: 'SiteMap',
+                href: 'https://colle.sakurakoyi.top/sitemap.xml',
+              },
             ],
           },
           {
@@ -142,7 +146,7 @@ const config = {
               },
               {
                 label: '明日方舟主页',
-                href: 'https://misaka10843.github.io/arknights-h5/',
+                href: 'https://arknights-h5.pages.dev/',
               },
             ],
           },
