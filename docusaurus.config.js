@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'offline-colle', // Usually your GitHub org/user name.
-  projectName: 'offline-colle-website', // Usually your repo name.
+  organizationName: 'kancolle-ohuraiN', // Usually your GitHub org/user name.
+  projectName: 'kancolle-ohuraiN-website', // Usually your repo name.
   ssrTemplate: `<!DOCTYPE html>
 <html <%~ it.htmlAttributes %>>
   <head>
