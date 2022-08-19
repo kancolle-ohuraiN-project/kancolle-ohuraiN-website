@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # 欢迎！
 
-欢迎来到 `offline-colle`项目的开发文档！
+欢迎来到 `kancolle-ohuraiN`项目的开发文档！
 
 在这里您能看到我们现存的开发文档！
 
