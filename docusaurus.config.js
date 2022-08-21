@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'kancolle-offline',
+  title: 'kancolle-ohuraiN',
   tagline: '舰队收藏离线项目官网',
   url: 'https://colle.sakurakoyi.top',
   baseUrl: '/',
@@ -55,13 +55,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/offline-colle/offline-colle-website/',
+          editUrl: 'https://github.com/kancolle-ohuraiN-project/kancolle-ohuraiN-website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/offline-colle/offline-colle-website/edit/main/blog/',
+            'https://github.com/kancolle-ohuraiN-project/kancolle-ohuraiN-website/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -75,9 +75,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'kancolle-offline',
+        title: 'kancolle-ohuraiN',
         logo: {
-          alt: 'kancolle-offline Logo',
+          alt: 'kancolle-ohuraiN Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -89,7 +89,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/offline-colle',
+            href: 'https://github.com/kancolle-ohuraiN-project',
             label: 'GitHub',
             position: 'right',
           },
@@ -103,11 +103,11 @@ const config = {
             items: [
               {
                 label: '文档主页',
-                to: '/docs/index',
+                to: '/docs/',
               },
               {
                 label: '游戏端文档',
-                to: '/docs/kancolle-offline',
+                to: '/docs/kancolle-ohuraiN/概述',
               }
             ],
           },
@@ -129,7 +129,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/offline-colle',
+                href: 'https://github.com/kancolle-ohuraiN-project',
               },
               {
                 label: 'SiteMap',
@@ -141,8 +141,12 @@ const config = {
             title: '姊妹网站',
             items: [
               {
-                label: '喵帕斯动画',
-                href: 'http://anime.sakurakoyi.top:10843',
+                label: 'misaka\'s home',
+                href: 'https://misaka.sakurakoyi.top',
+              },
+              {
+                label: 'sakura society',
+                href: 'https://www.sakurakoyi.top',
               },
               {
                 label: '明日方舟主页',
@@ -151,7 +155,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/offline-colle" target="_blank">offline-colle, Inc.</a> Built with Docusaurus.<br>Website hosting is provided by <a href="https://pages.cloudflare.com/" target="_blank">cloudflare pages</a>. Thank you very much for providing cloudflare!<br>Among them, some pictures on the website are painted by <a href="https://www.pixiv.net/users/22300147" target="_blank">よしなお</a> on pixiv. Thank you very much よしなお!`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/kancolle-ohuraiN-project" target="_blank">kancolle-ohuraiN-project, Inc.</a> Built with Docusaurus.<br>Website hosting is provided by <a href="https://pages.cloudflare.com/" target="_blank">cloudflare pages</a>. Thank you very much for providing cloudflare!<br>Among them, some pictures on the website are painted by <a href="https://www.pixiv.net/users/22300147" target="_blank">よしなお</a> on pixiv. Thank you very much よしなお!`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" style={buttonstyle} to="/docs/index">
             浏览开发文档📑
           </Link>
-          <Link className="button button--secondary button--lg" to="https://github.com/offline-colle/">
+          <Link className="button button--secondary button--lg" to="https://github.com/kancolle-ohuraiN-project/">
             查看GitHub项目🖥️
           </Link>
           <Link className="button button--secondary button--lg" style={buttonstyle} to="https://discord.gg/YKqytuN7PQ">
