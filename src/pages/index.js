@@ -18,7 +18,7 @@ function HomepageHeader() {
         <h1 className="hero__title" style={GhostWhite}>{siteConfig.title}</h1>
         <p className="hero__subtitle" style={GhostWhite}>{siteConfig.tagline}</p>
         <div className={styles.buttons} style={style}>
-          <Link className="button button--secondary button--lg" style={buttonstyle} to="/docs/index">
+          <Link className="button button--secondary button--lg" style={buttonstyle} to="/docs/">
             浏览开发文档📑
           </Link>
           <Link className="button button--secondary button--lg" to="https://github.com/kancolle-ohuraiN-project/">
