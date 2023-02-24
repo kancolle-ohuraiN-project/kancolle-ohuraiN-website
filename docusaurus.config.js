@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'kancolle-ohuraiN',
   tagline: '舰队收藏离线项目官网',
-  url: 'https://colle.sakurakoyi.top',
+  url: 'https://colle.sakurakoi.top',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -60,8 +60,7 @@ const config = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/kancolle-ohuraiN-project/kancolle-ohuraiN-website/edit/main/blog/',
+          editUrl: 'https://github.com/kancolle-ohuraiN-project/kancolle-ohuraiN-website/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -80,14 +79,17 @@ const config = {
           alt: 'kancolle-ohuraiN Logo',
           src: 'img/logo.svg',
         },
-        items: [
-          {
+        items: [{
             type: 'doc',
             docId: 'index',
             position: 'left',
             label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
           {
             href: 'https://github.com/kancolle-ohuraiN-project',
             label: 'GitHub',
@@ -97,11 +99,9 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
+        links: [{
             title: '文档',
-            items: [
-              {
+            items: [{
                 label: '文档主页',
                 to: '/docs/',
               },
@@ -113,17 +113,14 @@ const config = {
           },
           {
             title: '社区',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/YKqytuN7PQ',
-              },
-            ],
+            items: [{
+              label: 'Discord',
+              href: 'https://discord.gg/YKqytuN7PQ',
+            }, ],
           },
           {
             title: '更多',
-            items: [
-              {
+            items: [{
                 label: 'Blog',
                 to: '/blog',
               },
@@ -133,20 +130,19 @@ const config = {
               },
               {
                 label: 'SiteMap',
-                href: 'https://colle.sakurakoyi.top/sitemap.xml',
+                href: 'https://colle.sakurakoi.top/sitemap.xml',
               },
             ],
           },
           {
             title: '姊妹网站',
-            items: [
-              {
+            items: [{
                 label: 'misaka\'s home',
-                href: 'https://misaka.sakurakoyi.top',
+                href: 'https://misaka.sakurakoi.top',
               },
               {
                 label: 'sakura society',
-                href: 'https://www.sakurakoyi.top',
+                href: 'https://www.sakurakoi.top',
               },
               {
                 label: '明日方舟主页',
@@ -165,4 +161,3 @@ const config = {
 };
 
 module.exports = config;
-
